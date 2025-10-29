@@ -29,6 +29,7 @@ Gamma App	Report and presentation design
 Excel	Initial data source
 
 Project Steps
+
 1. Data Preparation (Python)
 Imported dataset using pandas
 Checked structure and summary statistics using .info() and .describe()
@@ -41,6 +42,7 @@ Checked redundancy between discount_applied and promo_code_used
 Loaded cleaned dataset into PostgreSQL for structured analysis
 
 2.SQL Analysis (PostgreSQL)
+
 Key analytical queries performed:
 Revenue by Gender – Compare total revenue between male and female customers
 High-Spending Discount Users – Find customers who use discounts but spend above average
@@ -53,7 +55,8 @@ Top 3 Products per Category – Rank best-selling items per category
 Repeat Buyers & Subscriptions – Study correlation between repeat purchases and subscription
 Revenue by Age Group – Determine high-revenue demographics
 
-Power BI Dashboard-
+Power BI Dashboard
+
 An interactive Power BI dashboard was created to visualize:
 Total revenue and purchase distribution
 Gender-wise and age-group spending
@@ -61,6 +64,7 @@ Top products and best-rated categorie
 Discount trends and subscription insights
 
 4.Business Recommendations
+
 Boost Subscriptions: Offer exclusive member benefits
 Reward Loyalty: Introduce repeat-buyer reward programs
 Review Discount Strategy: Ensure discounts drive growth sustainably
@@ -68,6 +72,7 @@ Promote Top Products: Use insights from high-rated items in campaigns
 Target Marketing: Focus on high-revenue demographics and express-shipping customers
 
 Results
+
 Identified key spending patterns and high-value customer segments
 Discovered that loyal and express-shipping customers generate higher revenue
 Found that subscription plans significantly improve repeat purchase rates
