@@ -53,7 +53,7 @@ Top 3 Products per Category – Rank best-selling items per category
 Repeat Buyers & Subscriptions – Study correlation between repeat purchases and subscription
 Revenue by Age Group – Determine high-revenue demographics
 
-Power BI Dashboard
+Power BI Dashboard-
 An interactive Power BI dashboard was created to visualize:
 Total revenue and purchase distribution
 Gender-wise and age-group spending
