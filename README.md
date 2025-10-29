@@ -1,31 +1,51 @@
 # Customer_Shopping_Behavior_Analysis
-Customer Shopping Behavior Analysis
+
 Overview
+
 This project analyzes customer shopping behavior using transactional data from 3,900 purchases across multiple product categories.
+
 The goal is to uncover insights into:
+
 Spending patterns
+
 Customer segmentation
+
 Product preferences
+
 Subscription behavior
+
 The findings aim to help businesses improve marketing strategies, customer retention, and overall profitability.
 
 Dataset
+
 Source: Provided in Excel format
+
 Rows: 3,900
+
 Columns: 18
 
 Key Features
+
 Demographics: Age, Gender, Location, Subscription Status
+
 Purchase Details: Item Purchased, Category, Purchase Amount, Season, Size, Color
+
 Behavioral Data: Discount Applied, Promo Code Used, Frequency of Purchases, Review Rating, Shipping Type
+
 Missing Data: 37 values in the Review Rating column
 
 Tools & Technologies
+
 Tool	Purpose
+
 Python (Pandas, NumPy)	Data loading, cleaning, and preprocessing
+
 PostgreSQL	Running SQL queries for business insights
+
 Power BI	Dashboard creation and data visualization
+
 Gamma App	Report and presentation design
+
 Excel	Initial data source
 
 Project Steps
