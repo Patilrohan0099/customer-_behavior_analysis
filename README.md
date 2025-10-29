@@ -3,6 +3,7 @@
  # Overview
 
 This project analyzes customer shopping behavior using transactional data from 3,900 purchases across multiple product categories.
+
 The goal is to uncover insights into:
 
 -Spending patterns
@@ -18,7 +19,9 @@ The findings aim to help businesses improve marketing strategies, customer reten
 # Dataset
 
 Source: Provided in Excel format
+
 Rows: 3,900
+
 Columns: 18
 
 # Key Features
