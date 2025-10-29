@@ -31,7 +31,7 @@ Excel	Initial data source
 Project Steps
 
 1. Data Preparation (Python)
-   
+
 Imported dataset using pandas
 Checked structure and summary statistics using .info() and .describe()
 Handled missing values in Review Rating column (filled with median per product category)
@@ -75,21 +75,34 @@ Target Marketing: Focus on high-revenue demographics and express-shipping custom
 Results
 
 Identified key spending patterns and high-value customer segments
+
 Discovered that loyal and express-shipping customers generate higher revenue
+
 Found that subscription plans significantly improve repeat purchase rates
 
 How to Run
+
 Prerequisites
+
 Python (>=3.8)
+
 PostgreSQL (installed and running)
+
 Power BI Desktop
 
 Steps
 Clone this repository:
+
 git clone https://github.com/Patilrohan0099/customer-_behavior_analysis.git
+
 Open the dataset in Excel or Python for review
+
 Run the data cleaning script in Python
+
 Load the cleaned data into PostgreSQL
+
 Execute SQL queries from the provided .sql file
+
 Open the Power BI file to explore the dashboard
+
 View the detailed report and presentation made in Gamma
