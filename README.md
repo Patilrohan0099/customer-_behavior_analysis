@@ -31,6 +31,7 @@ Excel	Initial data source
 Project Steps
 
 1. Data Preparation (Python)
+   
 Imported dataset using pandas
 Checked structure and summary statistics using .info() and .describe()
 Handled missing values in Review Rating column (filled with median per product category)
