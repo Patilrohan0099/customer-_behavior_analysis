@@ -1,6 +1,6 @@
 # Customer_Shopping_Behavior_Analysis
 
- Overview
+ # Overview
 
 This project analyzes customer shopping behavior using transactional data from 3,900 purchases across multiple product categories.
 The goal is to uncover insights into:
@@ -21,7 +21,7 @@ Source: Provided in Excel format
 Rows: 3,900
 Columns: 18
 
-Key Features
+# Key Features
 
 Demographics: Age, Gender, Location, Subscription Status
 
@@ -31,114 +31,120 @@ Behavioral Data: Discount Applied, Promo Code Used, Frequency of Purchases, Revi
 
 Missing Data: 37 values in the Review Rating column
 
-🧰 Tools & Technologies
-Tool	Purpose
-Python (Pandas, NumPy)	Data loading, cleaning, and preprocessing
-PostgreSQL	Running SQL queries for business insights
-Power BI	Dashboard creation and data visualization
-Gamma App	Report and presentation design
-Excel	Initial data source
-⚙️ Project Steps
-1. Data Preparation (Python)
+# Tools & Technologies
+Tool	Purpose 
 
-Imported dataset using pandas
+1]Python (Pandas, NumPy)-Data loading, cleaning, and preprocessing
 
-Checked structure and summary statistics using .info() and .describe()
+2]PostgreSQL-Running SQL queries for business insights
 
-Handled missing values in Review Rating column (filled with median per product category)
+3]Power BI-Dashboard creation and data visualization
 
-Renamed columns to snake_case for readability
+4]Gamma App-Report and presentation design
 
-Added new features:
+5]Excel-Initial data source
 
-age_group (binned customer ages)
+# Project Steps
 
-purchase_frequency_days (derived from timestamps)
+# 1.Data Preparation (Python)
 
-Checked redundancy between discount_applied and promo_code_used
+-Imported dataset using pandas
 
-Loaded cleaned dataset into PostgreSQL for structured analysis
+-Checked structure and summary statistics using .info() and .describe()
 
-2. SQL Analysis (PostgreSQL)
+-Handled missing values in Review Rating column (filled with median per product category)
+
+-Renamed columns to snake_case for readability
+
+-Added new features:
+
+   -age_group (binned customer ages)
+
+   -purchase_frequency_days (derived from timestamps)
+
+-Checked redundancy between discount_applied and promo_code_used
+
+-Loaded cleaned dataset into PostgreSQL for structured analysis
+
+# 2.SQL Analysis (PostgreSQL)
 
 Key analytical queries performed:
 
-Revenue by Gender – Compare total revenue between male and female customers
+1.Revenue by Gender – Compare total revenue between male and female customers
 
-High-Spending Discount Users – Find customers who use discounts but spend above average
+2.High-Spending Discount Users – Find customers who use discounts but spend above average
 
-Top 5 Products by Rating – Identify best-rated products
+3.Top 5 Products by Rating – Identify best-rated products
 
-Shipping Type Comparison – Compare average purchase amount by shipping type
+4.Shipping Type Comparison – Compare average purchase amount by shipping type
 
-Subscribers vs. Non-Subscribers – Analyze spending and revenue differences
+5.Subscribers vs. Non-Subscribers – Analyze spending and revenue differences
 
-Discount-Dependent Products – Find products heavily reliant on discounts
+6.Discount-Dependent Products – Find products heavily reliant on discounts
 
-Customer Segmentation – Classify users as New, Returning, or Loyal
+7.Customer Segmentation – Classify users as New, Returning, or Loyal
 
-Top 3 Products per Category – Rank best-selling items per category
+8.Top 3 Products per Category – Rank best-selling items per category
 
-Repeat Buyers & Subscriptions – Study correlation between repeat purchases and subscription
+9.Repeat Buyers & Subscriptions – Study correlation between repeat purchases and subscription
 
-Revenue by Age Group – Determine high-revenue demographics
+10.Revenue by Age Group – Determine high-revenue demographics
 
-3. Power BI Dashboard
+# 3.Power BI Dashboard
 
 An interactive Power BI dashboard was created to visualize:
 
-Total revenue and purchase distribution
+-Total revenue and purchase distribution
 
-Gender-wise and age-group spending
+-Gender-wise and age-group spending
 
-Top products and best-rated categories
+-Top products and best-rated categories
 
-Discount trends and subscription insights
+-Discount trends and subscription insights
 
-4. Business Recommendations
+# 4. Business Recommendations
 
-Boost Subscriptions: Offer exclusive member benefits
+-Boost Subscriptions: Offer exclusive member benefits
 
-Reward Loyalty: Introduce repeat-buyer reward programs
+-Reward Loyalty: Introduce repeat-buyer reward programs
 
-Review Discount Strategy: Ensure discounts drive growth sustainably
+-Review Discount Strategy: Ensure discounts drive growth sustainably
 
-Promote Top Products: Use insights from high-rated items in campaigns
+-Promote Top Products: Use insights from high-rated items in campaigns
 
-Target Marketing: Focus on high-revenue demographics and express-shipping customers
+-Target Marketing: Focus on high-revenue demographics and express-shipping customers
 
-📈 Results
+# Results
 
-Identified key spending patterns and high-value customer segments
+-Identified key spending patterns and high-value customer segments
 
-Discovered that loyal and express-shipping customers generate higher revenue
+-Discovered that loyal and express-shipping customers generate higher revenue
 
-Found that subscription plans significantly improve repeat purchase rates
+-Found that subscription plans significantly improve repeat purchase rates
 
-🧩 How to Run
+# How to Run
+
 Prerequisites
 
-Python (>=3.8)
+ -Python (>=3.8)
 
-PostgreSQL (installed and running)
+ -PostgreSQL (installed and running)
 
-Power BI Desktop
+ -Power BI Desktop
 
-Steps
+# Steps
 
-Clone this repository:
-
+1.Clone this repository:
 git clone https://github.com/Patilrohan0099/customer-_behavior_analysis.git
 
+2.Open the dataset in Excel or Python for review
 
-Open the dataset in Excel or Python for review
+3.Run the data cleaning script in Python
 
-Run the data cleaning script in Python
+4..oad the cleaned data into PostgreSQL
 
-Load the cleaned data into PostgreSQL
+5.Execute SQL queries from the provided .sql file
 
-Execute SQL queries from the provided .sql file
+6.Open the Power BI file to explore the dashboard
 
-Open the Power BI file to explore the dashboard
-
-View the detailed report and presentation made in Gamma
+7.View the detailed report and presentation made in Gamma
